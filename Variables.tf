@@ -48,6 +48,6 @@ variable "azp_url" {
 
 }
 variable "azp_pool" {
-  default = "{Your_Agent_Pool_Name}" #make sure to create pool on repo
+  default = "{Your_Agent_Pool_Name}" #make sure to create pool on your organization
 }
 
