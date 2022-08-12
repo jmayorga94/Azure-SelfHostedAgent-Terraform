@@ -40,14 +40,14 @@ variable "environment_tag" {
 }
 
 variable "azp_token" {
-  default = "ncxh2vmdtegf4sdwexhqvfatf6xuxkkej7e5rw36h7m65xoq77zq"
+  default = "{Your_PAT_Token}"
 
 }
 variable "azp_url" {
-  default = "https://dev.azure.com/javimayorga19940203/"
+  default = "{Your_Organization_URL}"
 
 }
 variable "azp_pool" {
-  default = "az400m05l05a-pool"
+  default = "{Your_Agent_Pool_Name}" #make sure to create pool on repo
 }
 
