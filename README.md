@@ -5,7 +5,7 @@ This is an example of using Terraform for provisioning a Windows machine and reg
 To provision using this sample, follow these steps:
 
 * Start by cloning this repository
-* Create or copy your agent pool name from Azure Devops Organization
+* Create or copy your agent pool name from Azure Devops Organization (azp_pool variable on the Variables.tf )
 * Configure the variables on the Variables.tf file with your information
 * Authenticate to azure using the command 
   ``  
